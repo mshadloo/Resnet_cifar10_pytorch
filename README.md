@@ -2,7 +2,7 @@
 In this repo, I implemented ResNet for CIFAR10 as described in the [original paper](https://arxiv.org/abs/1512.03385). 
 
 ### Architechture
-In plain/residual network for CIFAR10, the network inputs are $32 \times 32 \times 3$ images. The first layer is $3 \times 3 $ convolutions. Then, there are 3 stages. Each stage is a stack of $2n$ layers, where $n$ is the number of basic blocks. 
+In plain/residual network for CIFAR10, the network inputs are $ 32 \times 32 \times 3 $ images. The first layer is $3 \times 3 $ convolutions. Then, there are 3 stages. Each stage is a stack of $2n$ layers, where $n$ is the number of basic blocks. 
 
 
 I load and normalize CIFAR10 training and test datasets using torchvision. The training dataset contains 50K images and the test dataset contains 10K images.
