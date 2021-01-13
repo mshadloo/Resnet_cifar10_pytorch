@@ -3,6 +3,8 @@ In this repo, I implemented ResNet for CIFAR10 as described in the [original pap
 
 I compare ResNet20 and ResNet32 with 20-layer and 44-layer plain networks on CIFAR10. As you can see in the plain network with increasing layers the performance dropped while in ResNet with increasing the layer, the network outperforms.
 
-![test error on cifar10](/images/plain_test_error.png)
 
 
+Plain network            |  Residual network
+:-------------------------:|:-------------------------:
+![](/images/plain_test_error.png)  |  ![](/images/res_test_error.png)
