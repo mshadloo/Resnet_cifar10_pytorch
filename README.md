@@ -1,5 +1,11 @@
 # ResNet Implementation of CIFAR10 in Pytorch
-In this repo, I implemented ResNet for CIFAR10 as described in the [original paper](https://arxiv.org/abs/1512.03385). I load and normalize CIFAR10 training and test datasets using torchvision. The training dataset contains 50K images and the test dataset contains 10K images.
+In this repo, I implemented ResNet for CIFAR10 as described in the [original paper](https://arxiv.org/abs/1512.03385). 
+
+### Architechture
+In plain/residual network for CIFAR10, the network inputs are $32 \times 32 \times 3$ images. The first layer is $3 \times 3 $ convolutions. Then, there are 3 stages. Each stage is a stack of $2n$ layers, where $n$ is the number of basic blocks. 
+
+
+I load and normalize CIFAR10 training and test datasets using torchvision. The training dataset contains 50K images and the test dataset contains 10K images.
 
 I compare ResNet20 and ResNet32 with 20-layer and 44-layer plain networks on CIFAR10. As you can see in the plain network with increasing layers the performance dropped while in ResNet with increasing the layer, the network outperforms.
 
