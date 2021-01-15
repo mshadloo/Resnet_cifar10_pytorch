@@ -8,6 +8,6 @@ I compare ResNet20 and ResNet32 with 20-layer and 44-layer plain networks on CIF
 
 
 
-Plain network            |  Residual network
+Plain network: test error on CIFAR10, the deeper network has higher error           |  ResNet: train error on CIFAR10, the deeper network has less error
 :-------------------------:|:-------------------------:
 ![](/images/plain_test_error.png)  |  ![](/images/res_test_error.png)
